@@ -28,7 +28,6 @@ public class GenericoController {
         }catch (Exception e){
             return new ResponseEntity("erro ao processar o generico", HttpStatus.INTERNAL_SERVER_ERROR);
         }
-
     }
 
 }
